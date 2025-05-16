@@ -17,3 +17,12 @@ class Solution {
         return ans.toString();
     }
 }
+
+
+//second approach
+class Solution {
+    public String interpret(String command) {
+     return command.replace("()","o").replace("(al)","al");
+
+    }
+}
